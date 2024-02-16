@@ -85,5 +85,37 @@ Website: <a href="https://www.amazon.nl/"target="Amazon.nl">Website</a> <br>
 Instagram: <a href="https://www.instagram.com/amazon/?hl=en"target="amazon">Instagram</a>
 
 </p>
+
+
+<form id="contactForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required> <br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required> <br>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea> <br>
+
+    <button type="submit">Submit</button>
+</form>
+
+<script>
+    // You would typically handle form submission with JavaScript.
+    // For simplicity, I'm providing a basic example without actual submission.
+
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        // Handle form submission here (e.g., send data to the server).
+        // You can use JavaScript or a front-end framework like React/Vue to enhance the functionality.
+        alert('Form submitted! (Note: This is a placeholder and does not actually submit the form)');
+    });
+</script>
+
+
+
+
+
+
     </div>
 </body>
