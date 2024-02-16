@@ -121,3 +121,33 @@
   .dark-theme::-webkit-scrollbar-track {
     background: hsl(219, 27%, 20%);
   }
+  body{
+    margin: 0px;
+    font-size: 16px;
+  }
+
+  .main-container{
+    width: 100%;
+    max-width: 1800px;
+    margin: 0px auto;
+    font-size: 1em;
+
+  }
+
+header{
+    background-colora:rgba(0, 0,0,.8);
+    color: white;
+    padding: 20px;
+}
+
+header nav{
+    display: flex;
+
+}
+header nav{
+    margin-right: 30px;
+    border-radius: 40px;
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
