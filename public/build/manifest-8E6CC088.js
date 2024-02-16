@@ -1,0 +1,1 @@
+window.__remixManifest={"entry":{"module":"/build/entry.client-LYOKVATA.js","imports":["/build/_shared/chunk-Q3IECNXJ.js"]},"routes":{"root":{"id":"root","path":"","module":"/build/root-KOIWFVIC.js","hasAction":false,"hasLoader":false,"hasClientAction":false,"hasClientLoader":false,"hasErrorBoundary":false}},"version":"8e6cc088","url":"/build/manifest-8E6CC088.js"};
